@@ -18,7 +18,6 @@ function Card() {
                 <span className='text-slate-700 font-medium'>Nublado</span>
             </div>
 
-
         </div>
     );
 }
