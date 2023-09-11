@@ -5,6 +5,7 @@ const fetchData = async (city) => {
 
     const fetchResponse = await fetch(url);
     const data = await fetchResponse.json()
+
     return data;
 }
 
