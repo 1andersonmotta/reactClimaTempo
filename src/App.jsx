@@ -9,6 +9,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     fetchData(city).then((response) => {
       setData(response);
     });
